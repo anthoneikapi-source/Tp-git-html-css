@@ -139,3 +139,101 @@ h1 {
     text-transform: uppercase; 
     letter-spacing: 0px;
 }
+
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #0b0b0b;
+    color: #eaeaea;
+    line-height: 1.9;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(180deg, #000000, #111111);
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 3px solid #b30000;
+}
+
+/* TITRE PRINCIPAL */
+header h1 {
+    color: #b30000;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* CONTENU */
+body > h3,
+body > p,
+body > ul,
+body > div {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* SOUS-TITRES */
+h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #b30000;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* TEXTE PRINCIPAL */
+body > p,
+body {
+    font-size: 1.25rem;
+}
+
+/* LISTE DE VOITURES */
+ul {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+li {
+    background: linear-gradient(180deg, #1a1a1a, #0f0f0f);
+    border-left: 4px solid #b30000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 1.15rem;
+}
+
+/* METTRE EN VALEUR LES NOMS DES VOITURES */
+strong {
+    color: #ffffff;
+}
+
+/* ESPACEMENT GÉNÉRAL */
+body {
+    padding-bottom: 80px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    body {
+        font-size: 1.1rem;
+    }
+}
+/* RESET */
